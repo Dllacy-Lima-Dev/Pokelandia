@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #000;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  margin-left: 15px;
+}
+
+.logo h1 {
+  font-size: 1.600rem;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+span {
+  font-size: 1.600rem;
+  font-weight: 500;
+  color: #ff0000;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  padding: 8px;
+}
+
+.icons a {
+  margin-left: 8px;
+  text-decoration: none;
+  color: #fff;
+  border: solid 1px #ffffffd9;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.icons a i {
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  text-align: center;
+  height: 40px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.8125rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: calc(100vh - 64px - 40px);
+  position: relative;
+  background-image: url("/img/pikachu-perfil.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.80);
+  overflow: hidden;
+}
+
+/* lado esquerdo da main */
+.column-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  background-color: transparent;
+  padding: 8px;
+  border: solid 1px #ffffffdb;
+  outline: none;
+  font-weight: 600;
+  color: #000;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+input::placeholder {
+  color: #000000c7;
+  font-weight: 400;
+}
+
+button {
+  font-size: 1rem;
+  margin-top: 0.0001em;
+  padding: 8px;
+  border-radius: 6px;
+  color: #fff;
+  letter-spacing: 2px;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  outline: none;
+  font-family: "Bebas Neue", system-ui;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.search-center {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+/* --- / lado esquerdo da main */
+
+/* lado direito da main */
+.center-content {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* PESQUISA */
+.column-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-resultado {
+  width: 80%;
+  height: auto;
+  text-align: justify;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.info-result {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.img-result {
+  width: 20%;
+  height: 100%;
+  filter: brightness(0.85);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-left: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+  /* Espaço entre o texto e a imagem */
+}
+
+.title-img {
+  margin-bottom: 10px;
+}
+
+.info-result h2 {
+  font-family: "Bebas Neue", system-ui;
+}
+
+a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-info {
+  background-color: #000;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+/* Carrosel Pikachu */
+.destaques-walpapper {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 15px;
+  z-index: 1000;
+  margin-bottom: 30px;
+}
+
+.walpapper-01 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  transform: rotate(-10deg);
+}
+
+.image-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(255, 255, 255);
+  transform: rotate(10deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover {
+  transform: rotate(0deg) scale(1.1);
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.85);
+}
