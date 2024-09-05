@@ -5,7 +5,7 @@ function pesquisar() {
     nome: "Pikachu",
     description: "É o Pokémon elétrico mais popular do mundo e o mascote oficial da franquia Pokémon. Conhecido por sua aparência fofa e suas bochechas vermelhas eletrizantes.",
     link: "https://pt.wikipedia.org/wiki/Pikachu",
-    image: "img/img-01.webp",
+    image: "/img/img-01.webp",
     btnFechar: "Fechar"
   };
 
@@ -13,7 +13,7 @@ function pesquisar() {
     nome: "Charizard",
     description: "É um dos Pokémon mais icônicos e poderosos da primeira geração. Evolução final de Charmander, Charizard é um tipo Dragão/Fogo.",
     link: "https://pt.wikipedia.org/wiki/Charizard",
-    image: "img/charizard-perfil.webp",
+    image: "/img/charizard-perfil.webp",
     btnFechar: "Fechar"
   };
 
@@ -21,7 +21,7 @@ function pesquisar() {
     nome: "Bulbasaur",
     description: "Bulbasaur é um Pokémon de tipo planta/veneno. É conhecido por suas habilidades com plantas e sua aparência de sapo.",
     link: "https://pt.wikipedia.org/wiki/Bulbasaur",
-    image: "img/bulbasaur-perfil.webp",
+    image: "/img/bulbasaur-perfil.webp",
     btnFechar: "Fechar"
   };
 
