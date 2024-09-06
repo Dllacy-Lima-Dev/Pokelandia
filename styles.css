@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+/*  -------------------------------------------------------------------- RESERTS -------*/
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +14,11 @@ li {
   list-style: none;
 }
 
+/* /-------------------------------------------------------------------- RESERTS -------*/
+
+/*  -------------------------------------------------------------------- HEADER --------*/
 header {
+  width: 100%;
   background-color: #000;
   height: 64px;
   display: flex;
@@ -51,30 +56,24 @@ span {
 .icons a {
   margin-left: 8px;
   text-decoration: none;
-  color: #fff;
-  border: solid 1px #ffffffd9;
-  padding: 6px;
-  border-radius: 6px;
+  color: #000;
+  background-color: #ffffffe2;
+  border: solid 1px #ffffff65;
+  padding: 4.6px;
+  border-radius: 50%;
 }
 
 .icons a i {
-  font-size: 18px;
+  font-size: 16px;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #000;
-  text-align: center;
-  height: 40px;
+#icon-likendin {
+  font-size: 15.2px;
 }
 
-footer p {
-  color: #fff;
-  font-size: 0.8125rem;
-}
+/*  /-------------------------------------------------------------------- HEADER -------*/
 
+/*  -------------------------------------------------------------------- MAIN ----------*/
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -89,56 +88,6 @@ main {
   overflow: hidden;
 }
 
-/* lado esquerdo da main */
-.column-left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-input {
-  margin-bottom: 10px;
-  font-size: 1rem;
-  background-color: transparent;
-  padding: 8px;
-  border: solid 1px #ffffffdb;
-  outline: none;
-  font-weight: 600;
-  color: #000;
-  border-radius: 6px;
-  background-color: #fff;
-}
-
-input::placeholder {
-  color: #000000c7;
-  font-weight: 400;
-}
-
-button {
-  font-size: 1rem;
-  margin-top: 0.0001em;
-  padding: 8px;
-  border-radius: 6px;
-  color: #fff;
-  letter-spacing: 2px;
-  border: none;
-  font-weight: 500;
-  text-transform: uppercase;
-  outline: none;
-  font-family: "Bebas Neue", system-ui;
-  background-color: #000000;
-  cursor: pointer;
-}
-
-.search-center {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-/* --- / lado esquerdo da main */
-
-/* lado direito da main */
 .center-content {
   grid-column: 1 / -1;
   grid-row: 1;
@@ -151,7 +100,56 @@ button {
   transform: translate(-50%, -50%);
 }
 
-/* PESQUISA */
+/*  --------------------------------------------------------------MAIN LEFT ----------*/
+.column-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  background-color: #fff;
+  padding: 8px;
+  border: solid 1px #ffffff65;
+  outline: none;
+  font-weight: 600;
+  color: #000;
+  border-radius: 20px;
+  padding-left: -4px;
+}
+
+input::placeholder {
+  color: #000000c7;
+  font-weight: 400;
+}
+
+button {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  padding: 8px;
+  border-radius: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  outline: none;
+  font-family: "Bebas Neue", system-ui;
+  background-color: #000000;
+  cursor: pointer;
+  border: solid 1px #ffffff95;
+}
+
+.search-center {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+/*  --------------------------------------------------------------MAIN LEFT ----------*/
+
 .column-right {
   display: flex;
   justify-content: center;
@@ -214,7 +212,7 @@ a {
   border-radius: 5px;
 }
 
-/* Carrosel Pikachu */
+/*  -------------------------------------------------------------IMG MAIN ----------*/
 .destaques-walpapper {
   position: fixed;
   bottom: 0;
@@ -241,8 +239,9 @@ a {
   width: 150px;
   height: 150px;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgb(255, 255, 255);
+  border: solid 1px #ff00000c;
   transform: rotate(10deg);
   transition: transform 0.3s ease-in-out;
 }
@@ -255,5 +254,37 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.85);
+  filter: brightness(0.75);
+  cursor: pointer;
 }
+
+/*  /-------------------------------------------------------------------- MAIN --------*/
+
+/*  -------------------------------------------------------------------- FOOTER -------*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  text-align: center;
+  height: 40px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.8125rem;
+}
+
+.icons-footer {
+  display: flex;
+}
+
+.rodape i {
+  margin-left: 4px;
+  color: red;
+  font-size: 15px;
+  position: absolute;
+  margin-bottom: 3px;
+}
+
+/*  /-------------------------------------------------------------------- FOOTER ------*/
