@@ -12,10 +12,14 @@
 </head>
 
 <body>
+  <!-- MAIN TOPO -->
   <header>
     <div class="logo">
-      <h1>Pokelandi<span>a</span></h1>
+      <a href="index.html">
+        <h1>Pokelandi<span>a</span></h1>
+      </a>
     </div>
+
     <div class="icons">
       <a href="https://github.com/Dllacy-Lima-Dev/Pokelandia" target="_blank">
         <i class="bi bi-github"></i>
@@ -25,38 +29,46 @@
       </a>
     </div>
   </header>
+
+  <!-- MAIN TOPO -->
   <main>
-    <div class="column-left">
+    <section class="column-left">
       <div class="search-center">
-        <input id="pokemon-name" class="input-form" type="text" placeholder="Digite o nome do Pokémon"
-          autocapitalize="of">
+        <div class="title">
+          <h2>O fantástico mundo dos Pokémons</h2>
+        </div>
+        <input id="pokemon-name" class="input-form" type="text" placeholder="Digite o nome do Pokémon">
         <button onclick="pesquisar()">Pesquisar</button>
       </div>
-    </div>
-    <div class="column-right">
+    </section>
+
+    <section class="column-right">
       <div style="display: none;" class="info-result" id="item-resultado"></div>
-      <div class="destaques-walpapper">
-        <div class="walpapper-01">
-          <div class="image-container">
-            <img src="img/img-002.jpg" alt="pikachu">
-          </div>
 
-          <div class="image-container">
-            <img src="img/img-11.jpg" alt="pikachu">
-          </div>
-
-          <div class="image-container">
-            <img src="img/squirtle.jpg" alt="pikachu">
-          </div>
+      <div class="container">
+        <div class="card">
+          <a href="/pages/pokemon-fogo.html"><img src="/img/bulbasaur-perfil.webp" alt="charizard"></a>
+          <div class="card-footer">Terra</div>
+        </div>
+        <div class="card">
+          <a href="/pages/pokemon-fogo.html"><img src="/img/charizard-perfil.webp" alt="charizard"></a>
+          <div class="card-footer">Fogo</div>
+        </div>
+        <div class="card">
+          <a href="/pages/pokemon-agua.html"><img src="/img/squirtle-perfil.webp" alt="squirtle"></a>
+          <div class="card-footer">Água</div>
         </div>
       </div>
-    </div>
-    <div class="center-content"></div>
+
+    </section>
   </main>
+
+  <!-- MAIN RODAPÉ -->
   <footer>
     <p class="rodape">Pokelandia<i class="bi bi-heart-fill"></i></p>
   </footer>
   <script src="/js/app.js"></script>
+  <script src="/js/dados.js"></script>
 </body>
 
 </html>

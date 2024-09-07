@@ -1,0 +1,28 @@
+/*  -------------------------------------------------------------------- FOOTER -------*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  text-align: center;
+  height: 40px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.8125rem;
+}
+
+.icons-footer {
+  display: flex;
+}
+
+.rodape i {
+  margin-left: 4px;
+  color: red;
+  font-size: 15px;
+  position: absolute;
+  margin-bottom: 3px;
+}
+
+/*  /-------------------------------------------------------------------- FOOTER ------*/
