@@ -13,6 +13,13 @@ Após baixar o arquivo descompacte e abra a sua IDE, caso seja o VSCode e start 
 
 ---
 
+## Link do projeto na vercel! 
+
+[PokeLândia](https://pokelandia.vercel.app/)
+
+
+---
+
 ### Tecnologias utilizadas:
 - ![HTML Icon](https://img.icons8.com/color/48/000000/html-5.png) **HTML**
 - ![CSS Icon](https://img.icons8.com/color/48/000000/css3.png) **CSS**
