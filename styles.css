@@ -114,7 +114,7 @@ main {
   width: 100%;
   height: calc(100vh - 64px - 40px);
   position: relative;
-  background-image: url("/img/perfil/pikachu-perfil.webp");
+  background-image: url("/image/pikachu-perfil.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,7 +132,7 @@ main {
   border-radius: 10px;
   color: #fff;
   padding: 12px;
-  background-image: url("/img/perfil/pokebola.webp");
+  background-image: url("/image/pokebola.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
