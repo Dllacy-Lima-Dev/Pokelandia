@@ -17,3 +17,12 @@ Mergulhe em um mundo mágico de Pokémon. Nossa plataforma permite que você pes
 ---
 
 ### Imersão Alura + Google Gemini | 2024
+
+---
+
+### Imagens Iniciais:
+<div align="center">
+  <img src="/img-git/pokelandia-mobile.png" alt="Pokelandia versão mobile" width="200"/>
+  <img src="/img-git/pokelandia-tablet.png" alt="Pokelandia versão tablet" width="200"/>
+  <img src="/img-git/pokelandia-desktop.png" alt="Pokelandia versão desktop" width="200"/>
+</div>
