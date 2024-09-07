@@ -3,10 +3,10 @@ function navegarParaHabilidade() {
   const habilidade = select.value;
 
   if (habilidade === "terra") {
-    window.location.href = "/pokemon-terra.html";
+    window.location.href = "/pages/pokemon-terra.html";
   } else if (habilidade === "fogo") {
-    window.location.href = "/pokemon-fogo.html";
+    window.location.href = "/pages/pokemon-fogo.html";
   } else if (habilidade === "agua") {
-    window.location.href = "/pokemon-agua.html";
+    window.location.href = "/pages/pokemon-agua.html";
   }
 }
