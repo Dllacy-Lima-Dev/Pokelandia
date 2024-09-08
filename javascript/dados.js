@@ -24,21 +24,21 @@ function pesquisar() {
   const Squirtle = {
     nome: "Squirtle",
     description: "Squirtle é um Pokémon do tipo água e é conhecido por sua carapaça dura e habilidade de lançar jatos d'água. É um dos iniciais da primeira geração.",
-    link: "https://pt.wikipedia.org/wiki/Squirtle",
+    link: "https://www.pokemon.com/br/pokedex/squirtle",
     tags: "Água agua Tartaruga Jato Molhado"
   };
 
   const Pidgeotto = {
     nome: "Pidgeotto",
     description: "Pidgeotto é um Pokémon do tipo normal/voador e é conhecido por sua agilidade no voo e habilidades em batalhas aéreas. Evolui de Pidgey.",
-    link: "https://pt.wikipedia.org/wiki/Pidgeotto",
-    tags: "Voo Aéreo Normal Ágil"
+    link: "https://www.pokemon.com/br/pokedex/pidgeotto",
+    tags: " Ar Voo Aéreo Normal Ágil"
   };
 
   const Leafeon = {
     nome: "Leafeon",
     description: "Leafeon é um Pokémon do tipo planta, evoluído de Eevee quando exposto a uma pedra de folha. É conhecido por sua aparência elegante e habilidades de planta.",
-    link: "https://pt.wikipedia.org/wiki/Leafeon",
+    link: "https://www.pokemon.com/br/pokedex/leafeon",
     tags: "Folha Verde Fresco"
   };
 
