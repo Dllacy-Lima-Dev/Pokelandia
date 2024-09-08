@@ -93,6 +93,7 @@ main {
   padding: 8px;
   border-radius: 6px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .btn-card a {
